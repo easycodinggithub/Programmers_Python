@@ -9,4 +9,4 @@ def solution(arr, queries):
             result.append(-1)
         else:
             result.append(min(mins))
-    return result
+    return result   
