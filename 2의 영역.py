@@ -11,7 +11,8 @@ def solution(arr):
             break
     if (first == 0 and last == 0):
         return [-1]
-    if (first == last):
+    if (fsirst == last):
         return [2]
     print(first, last)
+
     return arr[first:last+1]
